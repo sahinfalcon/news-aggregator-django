@@ -1,4 +1,4 @@
-**# News Aggregator with Sentiment Analysis**
+* **News Aggregator with Sentiment Analysis**
 
 This project aims to build a comprehensive news aggregator web application using Django.  It will combine news article scraping from various sources, insightful sentiment analysis, and user-friendly visualizations.
 
