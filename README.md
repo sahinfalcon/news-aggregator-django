@@ -53,7 +53,7 @@ This project aims to build a comprehensive news aggregator web application using
 Contributions are welcome! Please feel free to:
 
 * **Report Issues:** Open issues for feature requests or bug reports.
-* **Submit Pull Requests:**  Follow the project's style guide (if applicable) for code contributions.  
+* **Submit Pull Requests:**  If you want to add a feature.
 
 ## License
 
