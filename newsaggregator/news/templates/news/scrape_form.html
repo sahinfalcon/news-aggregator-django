@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+
+<head>
+    <title>Scrape BBC News</title>
+    <link rel="stylesheet" href="{% static 'search.css' %}">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Scrape a BBC News Article</h1>
+        </header>
+
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset>
+                <legend>Enter Article URL</legend>
+                <label for="article_url">BBC News Article URL:</label>
+                <input type="url" name="article_url" id="article_url" placeholder="https://www.bbc.com/news/..."
+                    required>
+                <button type="submit">Scrape!</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+
+
+</html>

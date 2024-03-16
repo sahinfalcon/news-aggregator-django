@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+
+<head>
+    <title>Latest News</title>
+    <link rel="stylesheet" href="{% static 'list.css' %}">
+</head>
+
+<body>
+    <h1>Latest Scraped Articles</h1>
+
+    {% for article in articles %}
+    <div class="article">
+        <h2>{{ article.title }}</a></h2>
+        <p class="article-metadata">Published: {{ article.publication_date }}</p>
+        <div class="article-content">{{ article.content }}</div>
+        <p class="article-summary">{{ article.summary }}</p>
+        <p class="article-sentiment">Sentiment: {{ article.sentiment }}</p>
+    </div>
+    {% endfor %}
+
+</body>
+
+</html>
